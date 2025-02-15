@@ -1,0 +1,12 @@
+[package]
+name = "Rust_fakaCRM_bot"
+version = "1.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+teloxide = { version = "0.13", features = ["macros"] }
+log = "0.4"
+pretty_env_logger = "0.5"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+
